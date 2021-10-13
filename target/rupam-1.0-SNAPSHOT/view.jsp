@@ -6,40 +6,64 @@
 <html>
     <title>W3.CSS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+      </style>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <body>
     
   <ul class="w3-ul">
 <a href="index.jsp">   <li class="w3-xxlarge"><i class="fa fa-home"></i></li></a> 
   </ul>
 
-    <table border="2">
+    <table id="customers">
     <tr>
 
-        <td>Book Code</td>
+        <th>Book Code</th>
     
-        <td>Player Team Name</td>
+        <th>Book </th>
     
-        <td>Player Number</td>
+        <th>Player Number</th>
     
-        <td>player Salary in cr</td>
+        <th>player Salary in cr</th>
     
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
-        <td>Number of Ads</td>
+        <th>Number of Ads</th>
 
     
         </tr>

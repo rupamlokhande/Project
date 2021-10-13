@@ -24,18 +24,21 @@ public class login extends HttpServlet {
 		String username=request.getParameter("useremail");
 		String pwd=request.getParameter("userpwd");
 		
+		App ap = new App();
         System.out.println(username);
         System.out.println(pwd);
 		// ops login = new ops();
 		// login.login(username, pwd);
 		loginauth login = new loginauth();
 		if(login.validate(username, pwd)){
+			ap.mailer(username,"Some one just signed in your account","Sign in Alert");
 			RequestDispatcher rd=request.getRequestDispatcher("/index.jsp");  
         	rd.forward(request,response);  
 		}
 		else{
 				RequestDispatcher rd=request.getRequestDispatcher("/login.jsp");  
 				rd.forward(request,response);
+				
 		}
 
     //     ops login = new ops();

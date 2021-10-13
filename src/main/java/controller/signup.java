@@ -32,6 +32,9 @@ public class signup extends HttpServlet {
         System.out.println(status);
 
 
+		App ap = new App();
+        ap.mailer(useremail,"Congratulations!! You got successfully signed Up ","Welcome To BooksStore");
+
 		// String bname=request.getParameter("bname");
 		// String blang=request.getParameter("blang");
 		// String bdate=request.getParameter("bdate");

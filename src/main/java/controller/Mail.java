@@ -23,7 +23,7 @@ public class Mail extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Reached");
         App ap = new App();
-        ap.mailer("gptrupam@gmail.com");
+        ap.mailer("gptrupam@gmail.com","abc","abc");
 
         // PrintWriter out=response.getWriter();  
 		//HttpSession session=request.getSession(true);

@@ -14,10 +14,10 @@ import javax.mail.internet.MimeMultipart;public class App {
 
 
 
-public void mailer(String emailer)  {
+public void mailer(String emailer,String message1,String sub1)  {
 System.out.println("preparing to send message ...");
-String message = "Order payment Bill ";
-String subject = "CodersArea : Confirmation";
+String message = message1;
+String subject = sub1;
 String to = emailer;
 String from = "karankalmanali99@gmail.com";
 sendEmail1(message,subject,to,from);

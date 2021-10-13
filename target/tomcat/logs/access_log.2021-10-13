@@ -1,0 +1,11 @@
+10.40.0.2 - - [13/Oct/2021:04:01:55 +0000] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+10.40.0.2 - - [13/Oct/2021:04:02:02 +0000] "GET /rupam/login.jsp HTTP/1.1" 200 2022 http-bio-8080-exec-2 600
+10.40.0.2 - - [13/Oct/2021:04:02:09 +0000] "GET /rupam/login?useremail=lokhande.rupam40%40gmail.com&userpwd=iot HTTP/1.1" 200 2022 http-bio-8080-exec-3 808
+10.40.0.2 - - [13/Oct/2021:04:02:16 +0000] "GET /rupam/login?useremail=oop&userpwd=lpo HTTP/1.1" 200 2022 http-bio-8080-exec-4 350
+10.40.0.2 - - [13/Oct/2021:04:02:22 +0000] "GET /rupam/login?useremail=up&userpwd=bihar HTTP/1.1" 200 2022 http-bio-8080-exec-5 350
+10.40.0.2 - - [13/Oct/2021:04:02:27 +0000] "GET /rupam/login?useremail=lokhande.rupam40%40gmail.com&userpwd=1234 HTTP/1.1" 200 1564 http-bio-8080-exec-6 400
+10.40.0.2 - - [13/Oct/2021:04:02:45 +0000] "GET /rupam/mailer.jsp HTTP/1.1" 200 340 http-bio-8080-exec-7 44
+10.40.0.2 - - [13/Oct/2021:04:03:06 +0000] "GET /rupam/updatebook.jsp HTTP/1.1" 200 781 http-bio-8080-exec-8 33
+10.40.0.2 - - [13/Oct/2021:04:03:12 +0000] "GET /rupam/addbook.jsp HTTP/1.1" 200 2454 http-bio-8080-exec-9 50
+10.40.0.2 - - [13/Oct/2021:04:03:33 +0000] "GET /rupam/updatebook.jsp HTTP/1.1" 200 781 http-bio-8080-exec-10 1
+10.40.0.2 - - [13/Oct/2021:04:03:42 +0000] "GET /rupam/view HTTP/1.1" 200 2235 http-bio-8080-exec-10 514
